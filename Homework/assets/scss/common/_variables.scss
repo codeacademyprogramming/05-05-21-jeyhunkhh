@@ -4,6 +4,7 @@ md: 768px,
 lg: 992px,
 xl: 1200px);
 
+// btn color
 $primary: #0d6efd;
 $secondary: #6c757d;
 $success: #198754;
@@ -15,3 +16,12 @@ $theme-colors: (
   "success":    $success,
   "info":       $info,
 );
+
+// font-family
+$primary_font_family: 'Roboto', sans-serif;
+
+// color
+$black-color: #19191D;
+$dark-color: #000000;
+$gray-color: #787885;
+$gray-light-color: #EDEDF0;

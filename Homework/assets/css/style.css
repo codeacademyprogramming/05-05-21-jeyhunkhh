@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 .col-sm-1 {
   flex-basis: calc(100% / 12 * 1);
 }
@@ -230,7 +231,7 @@
 }
 
 .btn {
-  padding: .375rem .75rem;
+  padding: 0.375rem 0.75rem;
   border-radius: 5px;
   display: inline-block;
   text-decoration: none;
@@ -302,6 +303,111 @@
 .btn-outline-info:hover {
   background-color: #0dcaf0;
   border: 1px solid #0dcaf0;
+  color: white;
+}
+
+.rounded-pill {
+  border-radius: 25px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px;
+}
+
+.navbar .search-product {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search-product form {
+  position: relative;
+  margin-right: 10px;
+}
+
+.navbar .search-product form input {
+  padding: 15px 35px;
+  width: 350px;
+  border: none;
+  background-color: #EDEDF0;
+}
+
+.navbar .search-product form .search {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #787885;
+}
+
+.navbar .search-product form .close {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  color: #0d6efd;
+  transform: translateY(-50%);
+}
+
+.navbar .search-product a {
+  color: #0d6efd;
+}
+
+.navbar .profil {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .profil a {
+  transition: all 0.5s;
+  position: relative;
+  margin: 5px;
+}
+
+.navbar .profil a:hover {
+  border: none;
+  color: #0d6efd;
+  background-color: white !important;
+  box-shadow: 0px 2px 3px #cececb;
+}
+
+.navbar .profil a span {
+  position: absolute;
+  top: -8px;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
