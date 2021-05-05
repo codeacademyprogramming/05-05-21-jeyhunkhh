@@ -1,0 +1,17 @@
+$screen-type: (
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px);
+
+$primary: #0d6efd;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+);

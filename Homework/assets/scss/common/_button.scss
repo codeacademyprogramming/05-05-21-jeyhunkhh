@@ -1,0 +1,17 @@
+.btn{
+    padding: .375rem .75rem;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.5s;
+    @each $key,$value in $theme-colors {
+        &-#{$key}{
+            @include btn-color($value);
+        }
+    }
+    @each $key,$value in $theme-colors {
+        &-outline-#{$key}{
+            @include btn-outline-color($value)
+        }
+    }
+}

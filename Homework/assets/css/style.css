@@ -1,0 +1,307 @@
+.col-sm-1 {
+  flex-basis: calc(100% / 12 * 1);
+}
+
+.col-sm-2 {
+  flex-basis: calc(100% / 12 * 2);
+}
+
+.col-sm-3 {
+  flex-basis: calc(100% / 12 * 3);
+}
+
+.col-sm-4 {
+  flex-basis: calc(100% / 12 * 4);
+}
+
+.col-sm-5 {
+  flex-basis: calc(100% / 12 * 5);
+}
+
+.col-sm-6 {
+  flex-basis: calc(100% / 12 * 6);
+}
+
+.col-sm-7 {
+  flex-basis: calc(100% / 12 * 7);
+}
+
+.col-sm-8 {
+  flex-basis: calc(100% / 12 * 8);
+}
+
+.col-sm-9 {
+  flex-basis: calc(100% / 12 * 9);
+}
+
+.col-sm-10 {
+  flex-basis: calc(100% / 12 * 10);
+}
+
+.col-sm-11 {
+  flex-basis: calc(100% / 12 * 11);
+}
+
+.col-sm-12 {
+  flex-basis: calc(100% / 12 * 12);
+}
+
+.col-md-1 {
+  flex-basis: calc(100% / 12 * 1);
+}
+
+.col-md-2 {
+  flex-basis: calc(100% / 12 * 2);
+}
+
+.col-md-3 {
+  flex-basis: calc(100% / 12 * 3);
+}
+
+.col-md-4 {
+  flex-basis: calc(100% / 12 * 4);
+}
+
+.col-md-5 {
+  flex-basis: calc(100% / 12 * 5);
+}
+
+.col-md-6 {
+  flex-basis: calc(100% / 12 * 6);
+}
+
+.col-md-7 {
+  flex-basis: calc(100% / 12 * 7);
+}
+
+.col-md-8 {
+  flex-basis: calc(100% / 12 * 8);
+}
+
+.col-md-9 {
+  flex-basis: calc(100% / 12 * 9);
+}
+
+.col-md-10 {
+  flex-basis: calc(100% / 12 * 10);
+}
+
+.col-md-11 {
+  flex-basis: calc(100% / 12 * 11);
+}
+
+.col-md-12 {
+  flex-basis: calc(100% / 12 * 12);
+}
+
+.col-lg-1 {
+  flex-basis: calc(100% / 12 * 1);
+}
+
+.col-lg-2 {
+  flex-basis: calc(100% / 12 * 2);
+}
+
+.col-lg-3 {
+  flex-basis: calc(100% / 12 * 3);
+}
+
+.col-lg-4 {
+  flex-basis: calc(100% / 12 * 4);
+}
+
+.col-lg-5 {
+  flex-basis: calc(100% / 12 * 5);
+}
+
+.col-lg-6 {
+  flex-basis: calc(100% / 12 * 6);
+}
+
+.col-lg-7 {
+  flex-basis: calc(100% / 12 * 7);
+}
+
+.col-lg-8 {
+  flex-basis: calc(100% / 12 * 8);
+}
+
+.col-lg-9 {
+  flex-basis: calc(100% / 12 * 9);
+}
+
+.col-lg-10 {
+  flex-basis: calc(100% / 12 * 10);
+}
+
+.col-lg-11 {
+  flex-basis: calc(100% / 12 * 11);
+}
+
+.col-lg-12 {
+  flex-basis: calc(100% / 12 * 12);
+}
+
+.col-xl-1 {
+  flex-basis: calc(100% / 12 * 1);
+}
+
+.col-xl-2 {
+  flex-basis: calc(100% / 12 * 2);
+}
+
+.col-xl-3 {
+  flex-basis: calc(100% / 12 * 3);
+}
+
+.col-xl-4 {
+  flex-basis: calc(100% / 12 * 4);
+}
+
+.col-xl-5 {
+  flex-basis: calc(100% / 12 * 5);
+}
+
+.col-xl-6 {
+  flex-basis: calc(100% / 12 * 6);
+}
+
+.col-xl-7 {
+  flex-basis: calc(100% / 12 * 7);
+}
+
+.col-xl-8 {
+  flex-basis: calc(100% / 12 * 8);
+}
+
+.col-xl-9 {
+  flex-basis: calc(100% / 12 * 9);
+}
+
+.col-xl-10 {
+  flex-basis: calc(100% / 12 * 10);
+}
+
+.col-xl-11 {
+  flex-basis: calc(100% / 12 * 11);
+}
+
+.col-xl-12 {
+  flex-basis: calc(100% / 12 * 12);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  padding: 0px 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  [class*="col-md"] {
+    flex-basis: 100%;
+  }
+  [class*="col-lg"] {
+    flex-basis: 100%;
+  }
+  [class*="col-xl"] {
+    flex-basis: 100%;
+  }
+}
+
+.btn {
+  padding: .375rem .75rem;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-success {
+  background-color: #198754;
+  color: white;
+}
+
+.btn-info {
+  background-color: #0dcaf0;
+  color: white;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  color: white;
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+  color: white;
+}
+
+.btn-outline-success {
+  background-color: transparent;
+  border: 1px solid #198754;
+  color: #198754;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  border: 1px solid #198754;
+  color: white;
+}
+
+.btn-outline-info {
+  background-color: transparent;
+  border: 1px solid #0dcaf0;
+  color: #0dcaf0;
+}
+
+.btn-outline-info:hover {
+  background-color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
