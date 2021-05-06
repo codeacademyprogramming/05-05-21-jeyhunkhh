@@ -1,0 +1,40 @@
+@each $key, $value in $screen-type {
+  @include col-size($key);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  padding: 0px 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  @each $key, $value in $screen-type {
+    @if $key != "sm" {
+      [class*="col-#{$key}"] {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
